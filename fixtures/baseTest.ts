@@ -1,6 +1,6 @@
 import { test as base } from '@playwright/test';
-import testData from '../data/users.json;'
 import { loginPage} from '../pages/login/loginpage';
+import testData from '../data/users.json'
 import { Sidebar } from '../pages/components/sidebar';
 import { Buttons } from '../pages/components/buttons';
 import { itemsPage } from '../pages/masterfile/items/itempage';
