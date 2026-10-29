@@ -1,0 +1,14 @@
+{
+    "users": [
+        {
+            "role": "SuperUser",
+            "username": "superuser",
+            "password": "SomePass123$%^"
+        },
+        {
+            "role": "",
+            "username": "",
+            "password": ""
+        }
+    ]
+}

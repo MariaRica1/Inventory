@@ -1,0 +1,23 @@
+{
+  "name": "sims",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "typecheck": "tsc --noEmit",
+    "test:framework": "playwright test tests/framework --project=chromium --workers=1 --reporter=list",
+    "test:item-configurations": "playwright test --config=playwright.item-configurations.config.ts",
+    "test:item-configurations:list": "playwright test --config=playwright.item-configurations.config.ts --list",
+    "test:item-configurations:report": "playwright show-report artifacts/item-configurations/html-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2"
+  }
+}
