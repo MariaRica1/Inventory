@@ -1,5 +1,5 @@
 import { test as base } from '@playwright/test';
-import { loginPage} from '../pages/login/loginpage';
+
 import testData from '../data/users.json'
 import { Sidebar } from '../pages/components/sidebar';
 import { Buttons } from '../pages/components/buttons';
@@ -9,6 +9,7 @@ import creationPurchaseRequestPage from '../pages/purchases/purchase-request/cre
 import { DashboardPage } from '../pages/dashboard/dashboard';
 import { DatePicker } from '../pages/components/date-picker';
 import { ItemsTableComponent } from '../pages/components/items-table';
+import { loginPage} from '../pages/login/loginpage';
 
 
 type myFixture = {
